@@ -26,11 +26,11 @@ function Login() {
           type="name"
           placeholder="Name"
           value={name}
-          onChange=
+          onChange= {(e) => setName(e.target.value)} 
           // {(e) => {console.log(e);} 
-          {(e) => {setName(e.target.value)} 
+         
             
-          }
+          
           />
           
         <input
